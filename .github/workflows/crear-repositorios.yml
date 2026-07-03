@@ -11,7 +11,7 @@ jobs:
       - name: Crear repositorios por clase
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
-          OWNER: TU_USUARIO_O_ORGANIZACION
+          OWNER: gitauditoriadesistemasuna-UNA
         run: |
           repos=(
             "clase-00-bienvenida"
