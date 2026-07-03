@@ -1,0 +1,40 @@
+name: Crear repositorios del curso
+
+on:
+  workflow_dispatch:
+
+jobs:
+  crear-repositorios:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Crear repositorios por clase
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          OWNER: TU_USUARIO_O_ORGANIZACION
+        run: |
+          repos=(
+            "clase-00-bienvenida"
+            "clase-01-conceptos-generales-auditoria"
+            "clase-02-principios-lineamientos-auditoria"
+            "clase-03-tipos-de-auditoria"
+            "clase-04-gobierno-gestion-ti"
+            "clase-05-fases-auditoria-ti"
+            "clase-06-control-interno"
+            "clase-07-riesgos-ti"
+            "clase-08-cumplimiento-normativo"
+            "clase-09-evidencia-papeles-trabajo"
+            "clase-10-informes-auditoria"
+            "clase-11-casos-practicos"
+          )
+
+          for repo in "${repos[@]}"; do
+            if gh repo view "$OWNER/$repo" > /dev/null 2>&1; then
+              echo "Ya existe: $OWNER/$repo"
+            else
+              gh repo create "$OWNER/$repo" \
+                --public \
+                --description "Material de apoyo del curso Auditoría de Sistemas - $repo"
+              echo "Creado: $OWNER/$repo"
+            fi
+          done
