@@ -1,0 +1,59 @@
+name: Crear estructura del curso
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crear-carpetas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Crear carpetas del curso
+        run: |
+          mkdir -p 00-bienvenida
+          mkdir -p 01-conceptos-generales-auditoria
+          mkdir -p 02-principios-lineamientos-auditoria
+          mkdir -p 03-tipos-de-auditoria
+          mkdir -p 04-gobierno-gestion-ti
+          mkdir -p 05-fases-auditoria-ti
+          mkdir -p 06-control-interno
+          mkdir -p 07-riesgos-ti
+          mkdir -p 08-cumplimiento-normativo
+          mkdir -p 09-evidencia-papeles-trabajo
+          mkdir -p 10-informes-auditoria
+          mkdir -p 11-casos-practicos
+          mkdir -p 12-evaluaciones
+          mkdir -p lecturas-complementarias
+          mkdir -p recursos-generales
+          mkdir -p rubricas
+
+          touch 00-bienvenida/.gitkeep
+          touch 01-conceptos-generales-auditoria/.gitkeep
+          touch 02-principios-lineamientos-auditoria/.gitkeep
+          touch 03-tipos-de-auditoria/.gitkeep
+          touch 04-gobierno-gestion-ti/.gitkeep
+          touch 05-fases-auditoria-ti/.gitkeep
+          touch 06-control-interno/.gitkeep
+          touch 07-riesgos-ti/.gitkeep
+          touch 08-cumplimiento-normativo/.gitkeep
+          touch 09-evidencia-papeles-trabajo/.gitkeep
+          touch 10-informes-auditoria/.gitkeep
+          touch 11-casos-practicos/.gitkeep
+          touch 12-evaluaciones/.gitkeep
+          touch lecturas-complementarias/.gitkeep
+          touch recursos-generales/.gitkeep
+          touch rubricas/.gitkeep
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Crear estructura inicial del curso" || echo "No hay cambios para guardar"
+          git push
