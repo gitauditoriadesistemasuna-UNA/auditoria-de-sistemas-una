@@ -33,12 +33,12 @@ Para encontrar el material del curso, revise las carpetas organizadas por temas 
 Auditoria-de-Sistemas/
 │
 ├── README.md
-├── Sesíon_1/
-├── Sesíon_2/
-├── Sesíon_3/
-├── Sesíon_4
-├── Sesíon_5/
-├── Sesíon_6/
+├── Sesion_1/
+├── Sesion_2/
+├── Sesion_3/
+├── Sesion_4/
+├── Sesion_5/
+├── Sesion_6/
 ├── Practicas/
 ├── Lecturas/
 ├── Recursos/
