@@ -1,4 +1,4 @@
-# Curso de Auditoría de Sistemas (Propuesta)
+# Curso de Auditoría de Sistemas 
 
 Bienvenidos al espacio complementario de apoyo del curso de **Auditoría de Sistemas**.
 
@@ -29,16 +29,16 @@ GitHub se utilizará únicamente como un **espacio complementario de apoyo** par
 
 Para encontrar el material del curso, revise las carpetas organizadas por temas o semanas.
 
-```text (esto se puede cambiar Profesora Rita)
+
 Auditoria-de-Sistemas/
 │
 ├── README.md
-├── 01-Conceptos-Generales/
-├── 02-Tipos-de-Auditoria/
-├── 03-Gobierno-y-Gestion-TI/
-├── 04-Fases-de-la-Auditoria/
-├── 05-Control-Interno/
-├── 06-Riesgos-y-Cumplimiento/
+├── Sesíon_1/
+├── Sesíon_2/
+├── Sesíon_3/
+├── Sesíon_4
+├── Sesíon_5/
+├── Sesíon_6/
 ├── Practicas/
 ├── Lecturas/
 ├── Recursos/
@@ -87,27 +87,6 @@ Para descargar todo el contenido del repositorio:
 3. Descomprima el archivo descargado.
 4. Abra la carpeta en su computadora.
 
-## Cómo clonar el repositorio usando Git
-
-Si ya tiene Git instalado, puede clonar el repositorio con el siguiente comando:
-
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-Ejemplo:
-
-```bash
-git clone https://github.com/usuario/auditoria-de-sistemas.git
-```
-
-## Cómo actualizar el material
-
-Si ya clonó el repositorio, puede actualizarlo con:
-
-```bash
-git pull
-```
 
 Este comando descarga los cambios más recientes agregados al repositorio.
 
