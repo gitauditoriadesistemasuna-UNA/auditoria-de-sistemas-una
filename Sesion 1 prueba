@@ -1,0 +1,257 @@
+# Tema 1: Conceptos Generales de Auditoría de Tecnologías de Información
+
+## ¿Qué es la Auditoría de Tecnologías de Información?
+
+### Objetivo específico
+
+Al finalizar este apartado el estudiante será capaz de explicar qué es la auditoría de TI, cuál es su propósito, cuál es su alcance, cómo ha evolucionado y qué valor aporta a las organizaciones, diferenciándola de otras modalidades de auditoría.
+
+---
+
+# Analicemos la siguiente imagen
+
+**Pregunta**
+
+> ¿Qué elementos se observan?
+
+**Ilustración 1. Empresa XYZ – Tecnología de Información**
+
+Una organización moderna donde se observen simultáneamente:
+
+- Nube
+- Servidores
+- Aplicaciones
+- Usuarios
+- Dispositivos móviles
+- Inteligencia artificial
+- Ciberseguridad
+- Datos
+- Gerente observando un tablero
+
+En el centro de la imagen, una persona (el auditor) revisando todos esos componentes.
+
+**Pregunta para reflexión**
+
+> ¿Cómo puede una organización saber si toda esta tecnología realmente funciona como debería?
+
+---
+
+# Actividad - Reflexión
+
+## Pregunta
+
+Durante dos minutos cada estudiante responde:
+
+> ¿Quién verifica que los sistemas realmente protejan la información de una organización?
+
+Desarrollemos una lluvia de ideas.
+
+---
+
+# ¿Por qué existe la Auditoría de TI?
+
+La Auditoría de TI surge para evaluar si los riesgos tecnológicos están siendo gestionados mediante controles adecuados y para proporcionar recomendaciones independientes que contribuyan al logro de los objetivos de la organización.
+
+## Algunos problemas que dan origen a una Auditoría de TI
+
+| Problema | Descripción |
+|----------|-------------|
+| 🔒 Pérdida de información | Eliminación accidental, corrupción o fuga de datos críticos. |
+| ⚠️ Fraude | Manipulación de información, accesos indebidos o uso inapropiado de los sistemas. |
+| 🛡️ Ataques informáticos | Malware, ransomware, phishing y otras amenazas que afectan la continuidad del negocio. |
+| 📜 Incumplimiento normativo | Incumplimiento de leyes, reglamentos, contratos y políticas internas. |
+| ⚙️ Errores en los procesos | Deficiencias en aplicaciones, configuraciones o procedimientos que afectan la operación. |
+| 🌐 Interrupción de servicios | Caídas de sistemas, indisponibilidad de aplicaciones o fallas en infraestructura tecnológica. |
+| 💰 Inversiones tecnológicas sin resultados | Proyectos que no cumplen los objetivos esperados o no generan el valor previsto. |
+
+---
+
+# Definición: Auditoría de Tecnologías de Información
+
+## Definición (Doshi, 2023)
+
+> "An Information Systems (IS) audit examines the management controls in IT infrastructure and business applications. The objective of an IS audit is to evaluate whether implemented controls are efficient and effective in protecting information assets, maintaining data integrity, and ensuring the availability of assets in order to meet the organization's goals and objectives."
+
+**Fuente**
+
+Doshi, H. (2023). *CISA – Certified Information Systems Auditor Study Guide* (2nd ed.). Packt Publishing.
+
+---
+
+## Podemos decir entonces que
+
+La auditoría de sistemas de información es el proceso mediante el cual se examinan y evalúan los controles de gestión implementados en la infraestructura de TI y en las aplicaciones de negocio, con el propósito de determinar si son eficaces y eficientes para proteger los activos de información, preservar la integridad de los datos y garantizar su disponibilidad, apoyando así el logro de los objetivos organizacionales.
+
+---
+
+# Otras definiciones
+
+La auditoría informática es un examen sistemático, independiente y documentado de los sistemas de información y de los controles asociados, cuyo propósito es determinar si cumplen los criterios establecidos y si contribuyen adecuadamente a los objetivos de la organización.
+
+**Fuente**
+
+Piattini Velthuis, M. G., & del Peso Navarro, E. (2001). *Auditoría informática: Un enfoque práctico* (2.ª ed.). RA-MA.
+
+Esta definición enfatiza tres características esenciales:
+
+- Sistemática.
+- Independiente.
+- Basada en criterios.
+
+---
+
+# Auditoría de TI
+
+La Auditoría de TI puede resumirse como:
+
+- Evaluación independiente
+- Obtención de evidencia
+- Comparación con criterios
+- Conclusiones y recomendaciones
+
+---
+
+# Propósito de la Auditoría de TI
+
+Su propósito consiste en:
+
+- Proteger activos.
+- Reducir riesgos.
+- Mejorar controles.
+- Apoyar la toma de decisiones.
+- Fortalecer el gobierno de TI.
+- Generar confianza.
+
+---
+
+# Alcance de la Auditoría de TI
+
+El alcance puede incluir:
+
+- Infraestructura
+- Aplicaciones
+- Datos
+- Procesos
+- Seguridad
+- Continuidad
+- Servicios
+- Gobierno de TI
+
+---
+
+# Evolución de la Auditoría
+
+```text
+Auditoría informática
+        ↓
+Auditoría de sistemas
+        ↓
+Auditoría de TI
+        ↓
+Auditoría digital
+        ↓
+Auditoría apoyada con IA
+```
+
+---
+
+# Valor para la Organización
+
+## Sin auditoría
+
+- Mayor riesgo.
+- Menor confianza.
+- Controles débiles.
+
+## Con auditoría
+
+- Riesgos conocidos.
+- Controles fortalecidos.
+- Decisiones fundamentadas.
+- Mejora continua.
+
+---
+
+# En resumen
+
+La Auditoría de TI es un proceso sistemático e independiente que:
+
+1. Evalúa.
+2. Obtiene evidencia.
+3. Compara con criterios.
+4. Determina hallazgos.
+5. Emite conclusiones.
+6. Formula recomendaciones.
+7. Genera valor para la organización.
+
+Su aporte incluye:
+
+- Fortalecer controles.
+- Mejorar la seguridad.
+- Apoyar el logro de objetivos del negocio.
+
+---
+
+# Ideas clave
+
+La Auditoría de Tecnologías de Información:
+
+- No administra la tecnología de la organización.
+- No diseña, desarrolla ni opera sistemas de información.
+- No implementa controles ni gestiona directamente los riesgos.
+- No toma decisiones operativas o estratégicas por la administración.
+- Evalúa de forma independiente y objetiva la eficacia de los controles implementados.
+- Obtiene y analiza evidencia suficiente y apropiada para sustentar sus conclusiones.
+- Determina si los riesgos han sido identificados, evaluados y tratados adecuadamente por la organización.
+- Emite conclusiones y recomendaciones orientadas a fortalecer el control y la gestión de riesgos.
+- Proporciona aseguramiento y genera valor al contribuir al logro de los objetivos organizacionales.
+
+## La Auditoría de TI sí / no
+
+| La Auditoría de TI sí | La Auditoría de TI no |
+|------------------------|-----------------------|
+| Evalúa los controles. | Diseña los controles. |
+| Evalúa la gestión de riesgos. | Gestiona los riesgos. |
+| Obtiene evidencia. | Opera los procesos. |
+| Emite recomendaciones. | Ejecuta las recomendaciones. |
+| Proporciona aseguramiento. | Asume responsabilidades de la administración. |
+| Informa a la alta dirección. | Toma decisiones por la organización. |
+
+---
+
+# Glosario
+
+| Concepto | Idea principal |
+|----------|----------------|
+| Auditoría de TI | Evaluación independiente y sistemática de los controles de TI para proporcionar aseguramiento. |
+| Control | Medida implementada para reducir un riesgo o aumentar la probabilidad de alcanzar un objetivo. |
+| Riesgo | Posibilidad de que una amenaza o vulnerabilidad afecte el logro de los objetivos de la organización. |
+| Evidencia | Información suficiente, pertinente y confiable que respalda las conclusiones del auditor. |
+| Criterio | Referente contra el cual se evalúa la evidencia (normas, políticas, leyes, marcos de referencia o procedimientos). |
+| Hallazgo | Resultado de comparar la evidencia obtenida con los criterios establecidos, identificando conformidades, desviaciones u oportunidades de mejora. |
+| Recomendación | Acción propuesta para corregir debilidades, fortalecer los controles o mejorar la gestión de riesgos. |
+| Aseguramiento | Opinión profesional independiente sobre si los controles contribuyen al logro de los objetivos organizacionales y a la adecuada gestión de los riesgos. |
+
+---
+
+# Autoevaluación
+
+1. Explique con sus palabras qué es una auditoría de TI.
+2. ¿Cuál es la diferencia entre revisar un sistema y administrar un sistema?
+3. ¿Por qué una auditoría necesita evidencia?
+4. Mencione tres beneficios que aporta la auditoría.
+5. ¿Qué componentes tecnológicos pueden formar parte del alcance de una auditoría?
+
+---
+
+# Actividad de cierre (10 minutos)
+
+## Caso
+
+Una universidad sufrió una interrupción de su plataforma académica durante el proceso de matrícula. El incidente provocó retrasos, quejas estudiantiles y pérdida temporal de información.
+
+### Preguntas
+
+1. ¿Sería pertinente realizar una auditoría de TI? Justifique.
+2. ¿Qué aspectos deberían evaluarse?
+3. ¿Qué valor podría aportar la auditoría a la universidad?
